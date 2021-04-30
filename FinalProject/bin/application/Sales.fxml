@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SalesController">
+   <children>
+      <ListView layoutX="388.0" layoutY="48.0" prefHeight="262.0" prefWidth="227.0" />
+      <Separator layoutY="50.0" prefHeight="0.0" prefWidth="386.0" />
+      <SplitPane dividerPositions="0.3984375" layoutY="48.0" prefHeight="400.0" prefWidth="386.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="373.0" prefWidth="150.0">
+               <children>
+                  <VBox prefHeight="400.0" prefWidth="149.0" spacing="10.0">
+                     <children>
+                        <Button fx:id="appetizerButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Appetizer">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="hotdogButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Hot Dog">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="seafoodButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Seafood">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="chickenButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Chicken">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="noodlesButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Noodles">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="pizzaButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Pizza">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="beefButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Beef">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="kidButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Kid">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="sidesButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Sides">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="beveragesButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="160.0" text="Beverages">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="202.0">
+               <children>
+                  <SplitPane orientation="VERTICAL" prefHeight="398.0" prefWidth="227.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="248.0" prefWidth="225.0">
+                           <children>
+                              <Pane fx:id="chickenPane" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="grilledChickenButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Grilled Chicken" />
+                                    <Button fx:id="lemonChickenButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Lemon Chicken" />
+                                    <Button fx:id="orangeChickenButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Orange Chicken" />
+                                    <Button fx:id="sesameChickenButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Sesame Chicken" />
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="sidesPane" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="macNCheseButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Mac N' Cheese" />
+                                    <Button fx:id="cheesFriesButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Cheese Fries" />
+                                    <Button fx:id="onionRingsButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Onion Ring" />
+                                    <Button fx:id="riceButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Rice" />
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="hotdogPane" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="texMexButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Tex Mex" />
+                                    <Button fx:id="countyFareButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="County Fare" />
+                                    <Button fx:id="macButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Mac N' Chese" />
+                                    <Button fx:id="dawgButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Dawg" />
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="kidPane" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="cheeseBurgerButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Cheese Burger" />
+                                    <Button fx:id="chickenFingerButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Chicken Finger" />
+                                    <Button fx:id="chickenNuggetsButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Chicken Nuggets" />
+                                    <Button fx:id="friedChickenButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Fried Chickens" />
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="appetizerPane" layoutX="1.0" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="eggRollButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Egg Roll" />
+                                    <Button fx:id="fishCakeButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Fish Cake" />
+                                    <Button fx:id="ceasarSaladButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Ceasar Salad" />
+                                    <Button fx:id="garlicBreadButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Garlic Bread" />
+                                 </children>
+                              </Pane>
+                              <Separator layoutX="2.0" layoutY="255.0" prefHeight="3.0" prefWidth="225.0" />
+                              <Pane fx:id="seafoodPane" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="friedCalamariButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Fried Calamari" />
+                                    <Button fx:id="deepFriedCatfishButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Fried Catfish" />
+                                    <Button fx:id="grilledShrimpButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Grilled Shrimp" />
+                                    <Button fx:id="spicySquidButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Spicy Squid" />
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="noodlesPane" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="eggNoodleButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Egg Noodle" />
+                                    <Button fx:id="riceNoodleButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Rice Noodle" />
+                                    <Button fx:id="pastaButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Pasta" />
+                                    <Button fx:id="lomeinButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Lomein" />
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="pizzaPane" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="pepperoniButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Pepperoni" />
+                                    <Button fx:id="cheeseButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Cheese" />
+                                    <Button fx:id="allMeatButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="All Meat" />
+                                    <Button fx:id="veggieButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Veggie" />
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="beefPane" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="nyStripButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="New York Strip" />
+                                    <Button fx:id="sirloinButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Sirloin" />
+                                    <Button fx:id="tBoneButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="T-Bone" />
+                                    <Button fx:id="ribEyeButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Rib Eye" />
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="beveragesPane" prefHeight="252.0" prefWidth="227.0">
+                                 <children>
+                                    <Button fx:id="beerButton" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Beer" />
+                                    <Button fx:id="sodaButton" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Soda" />
+                                    <Button fx:id="teaButton" layoutX="114.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Tea" />
+                                    <Button fx:id="wineButton" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="109.0" text="Wine" />
+                                 </children>
+                              </Pane>
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+      <VBox layoutX="386.0" layoutY="2.0" prefHeight="447.0" prefWidth="227.0">
+         <children>
+            <TextArea fx:id="orderDetails" prefHeight="47.0" prefWidth="227.0" style="-fx-border-color: black;" />
+            <ListView fx:id="list" prefHeight="259.0" prefWidth="227.0" />
+            <HBox prefHeight="41.0" prefWidth="227.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="41.0" prefWidth="61.0" text="Total:" />
+                  <TextArea fx:id="billTotal" prefHeight="44.0" prefWidth="166.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="cancelButton" mnemonicParsing="false" prefHeight="95.0" prefWidth="109.0" style="-fx-background-color: #DC143C;" text="Cancel" />
+                  <Button fx:id="saveButton" mnemonicParsing="false" prefHeight="95.0" prefWidth="118.0" style="-fx-background-color: #20B2AA;" text="Save" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <RadioButton fx:id="dineInButton" layoutX="62.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="78.0" text="Dine In" />
+      <RadioButton fx:id="togoButton" layoutX="148.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="85.0" text="To Go" />
+      <Button fx:id="homeButton" layoutY="-2.0" mnemonicParsing="false" styleClass="homeButton" stylesheets="@application.css" text="Home" />
+      <ChoiceBox fx:id="tables" layoutX="233.0" layoutY="7.0" prefWidth="150.0" />
+   </children>
+</Pane>
